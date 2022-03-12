@@ -1,0 +1,113 @@
+.nav {
+    font-family: Source Sans Pro, sans-serif;
+    overflow: hidden;
+    padding: 0;
+    color: #e5e5e5;
+    background-color: rgba(0, 0, 0, .5) !important;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    min-height: 64px;
+    font-size: 1.7vh;
+
+    .left {
+        float: left;
+        line-height: 64px;
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        margin-left: 100px;
+
+        .selected {
+            background: linear-gradient(0deg, rgba(233, 56, 63, .3) 0%, rgba(233, 56, 63, .3) 20%, transparent 100%);
+            border: 4px solid #e9383f;
+            border-top-width: 0px;
+            border-left-width: 0px;
+            border-right-width: 0px;
+        }
+
+        span {
+            display: inline-block;
+            text-align: center;
+            cursor: pointer;
+            padding-top: 4px;
+            padding-left: 12px;
+            padding-right: 12px;
+            color: white !important;
+
+            &:hover {
+                background: linear-gradient(0deg, rgba(233, 56, 63, .3) 0%, rgba(233, 56, 63, .3) 20%, transparent 100%);
+                border: 4px solid #e9383f;
+                border-top-width: 0px;
+                border-left-width: 0px;
+                border-right-width: 0px;
+            }
+        }
+
+        b {
+            color: #717077;
+        }
+
+        .button {
+            width: 150px;
+        }
+
+        i {
+            color: #4bd763;
+            padding-left: 12px;
+        }
+            
+    }
+
+    .right {
+        float: right;
+        line-height: 64px;
+        text-transform: uppercase;
+
+        span {
+            display: inline-block;
+            cursor: pointer;
+            padding-left: 19.2px;
+            padding-right: 19.2px;
+            color: white !important;
+            font-size: 2vh;
+    
+            &:hover {
+                background-color: #e9383f;
+            }
+        }
+    }
+}
+
+.nav_short {
+    overflow: hidden;
+    padding: 0;
+    color: #e5e5e5;
+    background-color: rgba(17, 24, 39, .92) !important;
+    z-index: 999;
+    width: 64px;
+    top: 0;
+    min-height: 64px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+    .left {
+        float: left;
+        line-height: 64px;
+        text-transform: uppercase;
+    }
+    .left span {
+        display: inline-block;
+        cursor: pointer;
+        color: white !important;
+        padding-left: 19.2px;
+        padding-right: 19.2px;
+        font-size: 2vh;
+
+        &:hover {
+            background-color: #e9383f;
+        }
+    }
+}

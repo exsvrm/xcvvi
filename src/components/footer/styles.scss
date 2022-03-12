@@ -1,0 +1,28 @@
+.footer {
+    font-family: Source Sans Pro, sans-serif;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    height: 75px;
+
+    .button {
+        background: #1f2324;
+        color: white;
+        padding-left: 9px;
+        padding-right: 9px;
+        border: 2px solid transparent;
+        font-size: 22.5px;
+        line-height: 75px;
+        margin-left: 25px;
+    }
+
+    .button:first-child {
+        margin-left: 100px;
+    }
+
+    i {
+        padding-right: 7.5px;
+    }
+}

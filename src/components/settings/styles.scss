@@ -1,0 +1,100 @@
+.settings {
+
+    .modal {
+        overflow: hidden;
+        padding: 0;
+        color: #e5e5e5;
+        background-color: rgba(17, 24, 39, .92) !important;
+        z-index: 999;
+        width: calc(100% - 200px);
+        top: 0;
+        min-height: 64px;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-top: 30px;
+        padding: 16px 24px;
+
+        .title {
+            font-family: Manrope, sans-serif;
+            font-size: 1.8vh;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .second_title {
+            font-family: Roboto, sans-serif;
+            font-size: 1.5vh;
+            color: #6c6a72;
+        }
+
+        .thirst_title {
+            font-family: Roboto, sans-serif;
+            font-size: 1.3vh;
+            color: #a3a1a8;
+        }
+
+        .button {
+            background:rgba(17, 24, 39, .92);
+            border: 2px solid white;
+            color: white;
+            font-family: Roboto, sans-serif;
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 1.5vh;
+            cursor: pointer;
+
+            &:hover {
+                background: white;
+                color: rgba(17, 24, 39, .92);
+            }
+        }
+
+        .chat_selection {
+            cursor: pointer;
+
+            &::before {
+                content: "< ";
+            }
+
+            &::after {
+                content: " >";
+            }
+        }
+
+        .settings_save {
+            display: none;
+            font-family: Roboto, sans-serif;
+            text-transform: uppercase;
+            margin-top: 20px;
+            color: white;
+            border: 2px solid #e9383f;
+            background: rgba(17, 24, 39, .92);
+            font-size: 1.5vh;
+            padding: 9px 12px;
+            cursor: pointer;
+
+            &:hover {
+                background: #e9383f;
+            }
+        }
+
+        .settings_save_interface {
+            display: none;
+            font-family: Roboto, sans-serif;
+            text-transform: uppercase;
+            margin-top: 20px;
+            color: white;
+            border: 2px solid #e9383f;
+            background: rgba(17, 24, 39, .92);
+            font-size: 1.5vh;
+            padding: 9px 12px;
+            cursor: pointer;
+
+            &:hover {
+                background: #e9383f;
+            }
+        }
+    }
+}

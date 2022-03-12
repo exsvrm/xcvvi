@@ -1,0 +1,79 @@
+@import url(assets/fonts/scss/import.scss);
+@import url(https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css);
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap);
+
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: Brownie, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(/assets/images/bg-2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+hr {
+    height: 1px;
+    border: 0;
+    color: #3c3b40;
+    background-color: #3c3b40;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    font-family: Roboto, sans-serif;
+
+    span {
+        margin-left: 15px;
+        font-size: 24px;
+        position: relative;    
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    input[type=checkbox] {
+        cursor: pointer;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all;
+        height: 16px;
+        width: 16px;
+        position: relative;    
+        vertical-align: middle;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    input[type=checkbox]:not(checked) {
+        -webkit-box-shadow: 0px 0px 0px 2px white;
+        -moz-box-shadow: 0px 0px 0px 2px white;
+        box-shadow: 0px 0px 0px 2px white;
+        appearance: none;
+        background: rgba(17, 24, 39, .92);
+        border: 3px solid rgba(17, 24, 39, .92);
+    }
+    
+    input[type=checkbox]:checked {
+        -webkit-box-shadow: 0px 0px 0px 2px white;
+        -moz-box-shadow: 0px 0px 0px 2px white;
+        box-shadow: 0px 0px 0px 2px white;
+        appearance: none;
+        background: white;
+        border: 3px solid rgba(17, 24, 39, .92);
+    }
+}
